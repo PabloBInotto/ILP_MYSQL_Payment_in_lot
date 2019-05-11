@@ -1,0 +1,26 @@
+{
+  "name": "ilp",
+  "version": "1.0.0",
+  "description": "ilp connector with mysql db",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "ilp",
+    "mysql"
+  ],
+  "author": "Pablo Binotto",
+  "license": "ISC",
+  "dependencies": {
+    "ilp-plugin": "^3.2.0",
+    "ilp-protocol-spsp": "^2.2.0",
+    "ilp-protocol-stream": "^1.6.0",
+    "mysql": "^2.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
