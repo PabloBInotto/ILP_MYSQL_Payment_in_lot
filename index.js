@@ -1,7 +1,7 @@
 
-pay;
-interval = setInterval(pay, 5000);
+querypay;
+interval = setInterval(querypay, 5000);
 
-function pay(){
-    var ilp = new (require('./ilp'))
+function querypay(){
+    var ilp = new (require('./querypay'))
 }
